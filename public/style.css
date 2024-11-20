@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    background-color: #dee3f2;
+}
+nav{
+    background-color: #4b627d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+}
+.logo-nav{
+    width: 100px;
+    height: 70%;
+    border-radius: 15px;
+}
+.logo-nav-div{
+    display: flex;
+    align-items: center;
+}
+.address-nav-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.address-icon-div{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+.h5-height{
+    margin: 2px;
+    font-size: 16px;
+    color: white;
+}
+.middle-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-search-nav{
+    width: 600px;
+    height: 45px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #dee3f2;
+    padding: 0 5px ;
+}
+.button-search-nav{
+    background-color: #1f2d40;
+    width: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.search-nav{
+    display: flex;
+}
+.left-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.login-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.icon-color{
+    color: white;
+}
+
+
+.nav2{
+    /* width: 100%; */
+    height: 40px;
+    background-color: #202d41;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    justify-content: flex-start;
+    padding: 0 50px;
+    gap: 50px;
+    align-items: center;
+}
+.list-lets-connect{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.under-nav2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories{
+    width: 80%;
+    /* background-color: #898989; */
+    padding: 15px;
+    margin: 25px 0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category-solo{
+    width: 225px;    
+    height: 225px;    
+    background-color: #202d42;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;      
+    justify-content: center;   
+    gap: 5px; 
+}
+.category-solo a{
+    display: flex
+}
+.category-solo i {
+    font-size: 25px;
+    margin: 5px;
+}
+.category-solo p {
+    margin: 5px;               
+    text-align: center;      
+    font-size: 20px;  
+    color: white;
+}
+.category-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.fa-lg{
+    font-size: 2.5em;
+}
+
+.color-white{
+    color: white;
+}
+.font-sizee{
+    font-size: 25px;
+}
+.div1-about-us{
+    width: 50%;
+}
+.div2-about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-us-div{
+    background-color: #4b627d;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+.stay-updated{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+.stay-updated-h3{
+    width: 50%;
+}
+.stay-updated-div{
+    width: 30%;
+}
+
+
+footer{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+}
+
+.categories-products{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+
+}
+.product-types{
+    width: 80%;
+    height: 60px;
+    background-color: yellow;
+}
+
+
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 100%;
+    display: none;
+}
+.umm{
+    height: 500px;
+}
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px; 
+    background-color: rgba(26, 30, 74, 0.781);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+
+@keyframes fade{
+    from {opacity: .5;}
+    to {opacity: 1;}
+}
+
+.text-welcom{
+    font-size: 30px;
+    color: #202d42;
+    padding: 30px;
+    margin: 30px;
+}
